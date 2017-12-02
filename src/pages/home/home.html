@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Location 
+    </ion-title>
+    <ion-buttons end>
+      <!-- Button to Add Location Marker -->
+      <button ion-button outline (click)="addMarker()"><ion-icon name="locate"></ion-icon> &nbsp;Pin Location</button> 
+    </ion-buttons>  
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+  <div #map id="map"></div>  <!-- To Load MAP -->
+</ion-content>
+
+
+
